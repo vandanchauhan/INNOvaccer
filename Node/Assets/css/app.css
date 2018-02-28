@@ -1,0 +1,197 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+ 
+/*Main*/
+body {
+    background-color: #a2a2a2;
+    color: #53636d; 
+}
+
+form {
+	text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    cursor: default;
+    background-color: #f5f5f5;
+    border: 1px solid #bbbbbb;
+    color: #6d6d6d;
+    padding: 8px 25px;
+    font-size: 17px;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    padding: 8px 25px;
+    font-size: 17px;
+    color: #a2a2a2;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.add-btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: transparent;
+	border: none;
+	padding: 10px;
+}
+
+.category {
+    font-size: 20px;
+    background-color: #ececec;
+    border-radius: 4px;
+    padding: 3px 0px;
+    color:white;
+}
+
+.align-vert {
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+.expense-rlogo {
+    float: left;
+    width: 15px;
+    margin-left: 60px;	
+    padding-top: 5px;
+}
+
+#expense-data {
+	overflow-y: auto;
+	height: 78vh;
+	width:90%;
+    margin-top: 18px;
+}
+
+#chartdiv {
+    width   : 100%;
+    height  : 500px;
+}   
+
+.bck-clr {
+    background-color: #f5f5f5;
+}
+
+.select-style {
+    height: 95px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #f5f5f5;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    padding-bottom: 101px;
+}
+
+.expense-div {
+    text-align: center;
+    padding: 7px 10px;
+/*    border: 1px solid #53636d;*/
+    margin: 12px;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+/*Add Expense*/
+
+select{
+    border: none;
+}
+
+option{
+    float: left;
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+    margin: 16px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 64px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+option:hover {
+  background-color:#dedede;
+}
+
+#date-chng {
+	background-color: transparent;	
+	border: none;
+    padding-right: 17px;
+    cursor: pointer;
+}
+
+.modal-width {
+	width:527px;
+}
+
+.close-img {
+	width: 34px;
+	cursor: pointer;
+	text-align: right;
+}
+
+/*Numeric Keypad*/
+p
+{
+    margin: 0;
+    padding: 0 0 10px 0;
+    line-height: 20px;
+}
+.span4
+{
+	width: 45px;
+    float: left;
+    margin: 0 2px 4px 2px;
+    padding: 6px 6px 6px 6px;
+    background-color: #efefef;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.phone
+{
+    margin-top: 15px;
+    background: #fff;
+}
+.tel
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #9e9e9e;
+    border-radius: 4px;
+    width: 182px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.num-pad
+{
+    width: 147px;
+    margin: auto;
+}
+
+/*input[type=tel].tel {
+    background-image: url(http://i.imgur.com/Fd7NROx.png);
+    border: 1px solid #aaa;
+    padding: 8px;
+    padding-left: 20px;
+    background-size: 10px 15px;
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
+}*/
